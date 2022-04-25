@@ -7,7 +7,7 @@ function loginFunc(e)
 
 
     var urllogin = 'https://api-parcial.crangarita.repl.co/login';
-    var data = {user: username, password: clave};
+    var data = {codigo: username, password: clave};
     
     fetch(urllogin, {
       method: 'POST',

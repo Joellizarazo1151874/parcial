@@ -19,7 +19,7 @@ function loginFunc(e)
     .catch(error => console.error('Error:', error))
     .then(response => {
                         console.log('Success:', response);
-                        localStorage.setItem("user", response.user);
+                        localStorage.setItem("user", response.codigo);
                         localStorage.setItem("name", response.name);
                         window.location.href="html/dashboard.html";
                       }

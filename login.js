@@ -26,10 +26,10 @@ function loginFunc(e)
          );
 }
 
-if(localStorage.getItem("user")==null) {
+if(localStorage.getItem("codigo")==null) {
   window.alert("Datos incorrectos");
 }
-if(localStorage.getItem("user")!=null) {
+if(localStorage.getItem("codigo")!=null) {
   window.location.href="html/dashboard.html";
 }
 
